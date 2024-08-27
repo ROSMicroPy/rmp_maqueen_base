@@ -1,0 +1,11 @@
+{
+  "urls": [
+    ["rostype/Twist.py", "github:rosmicropy/rmp_maqueen_base/rostype/Twist.py"],
+    ["rostype/Vector3.py", "github:rosmicropy/rmp_maqueen_base/rostype/Vector3.py"],
+
+    ["wifi.py", "github:rosmicropy/rmp_maqueen_base/wifi.py"],
+    ["RosBot_Maqueen.py", "github:rosmicropy/rmp_maqueen_base/RosBot_Maqueen.py"],
+    ["MaqueenDrive_Test.py", "github:rosmicropy/rmp_twisted_example/TwistedSubscriber.py"]
+  ],
+  "version": "0.3"
+}
