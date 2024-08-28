@@ -6,8 +6,8 @@
 
     ["mbits/lib/MaqueenDrive.py", "github:rosmicropy/rmp_maqueen_base/mbits/lib/MaqueenDrive.py"],
     ["RosBot_Maqueen.py", "github:rosmicropy/rmp_maqueen_base/RosBot_Maqueen.py"],
-    ["MaqueenDrive_Test.py", "github:rosmicropy/rmp_maqueen_base/MaqueenDrive.py"]
+    ["MaqueenDrive_Test.py", "github:rosmicropy/rmp_maqueen_base/MaqueenDrive_Test.py"]
 
   ],
-  "version": "0.7"
+  "version": "0.8"
 }
