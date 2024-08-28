@@ -7,9 +7,8 @@
     ["mbits/lib/MaqueenDrive.py", "github:rosmicropy/rmp_maqueen_base/mbits/lib/MaqueenDrive.py"],
     ["wifi.py", "github:rosmicropy/rmp_maqueen_base/wifi.py"],
     ["RosBot_Maqueen.py", "github:rosmicropy/rmp_maqueen_base/RosBot_Maqueen.py"],
-    ["MaqueenDrive_Test.py", "github:rosmicropy/rmp_twisted_example/TwistedSubscriber.py"]
-
+    ["MaqueenDrive_Test.py", "github:rosmicropy/rmp_maqueen_base/MaqueenDrive.py"]
 
   ],
-  "version": "0.6"
+  "version": "0.7"
 }

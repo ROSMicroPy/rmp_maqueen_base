@@ -216,13 +216,13 @@ class MaqueenDrive:
 
         reg:int = 0x14
 
-        if (servo == 0) {
+        if servo == 0:
             reg = 0x14
-        }
-        if (servo == 1) {
+        
+        elif servo == 1: 
             reg = 0x15
-        }
-        buf[0] = angle;
+        
+        buf[0] = angle
 
         self.i2c.writeto_mem(
           MaqueenDrive.Maqueen_I2C_DevAddr, 
