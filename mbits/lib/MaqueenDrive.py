@@ -209,4 +209,23 @@ class MaqueenDrive:
       elif (motor_id == MaqueenDrive.Motor_Right):
         return buf[2];
     
-    
+
+    def servoRun(self, servo:int, angle:int) -> None:
+        buf = bytearray(1)
+        buf[0] = 0
+
+        reg:int = 0x14
+
+        if (servo == 0) {
+            reg = 0x14
+        }
+        if (servo == 1) {
+            reg = 0x15
+        }
+        buf[0] = angle;
+
+        self.i2c.writeto_mem(
+          MaqueenDrive.Maqueen_I2C_DevAddr, 
+          reg,
+          buf) 
+       

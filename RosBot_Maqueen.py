@@ -1,6 +1,8 @@
 
 import gc
 import time
+import wifi
+
 from machine import I2C, Pin
 
 from ROSMicroPy import registerDataType, dumpDataType,registerEventSubscription,
