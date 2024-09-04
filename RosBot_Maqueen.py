@@ -16,7 +16,7 @@ from mbits.lib.MaqueenDrive import MaqueenDrive
 
 setNodeName("Turtle1")
 
-i2c = I2C(1, scl=21, sda=22, freq=400000)
+i2c = I2C(1, scl=21, sda=22, freq=100000)
 drive = MaqueenDrive(i2c)
 
 def ros_event_callback(data):
@@ -61,10 +61,10 @@ typeAttach = registerDataType(Attachment.dataMap)
 dumpDataType(typeAttach)
 
 print("Registgering Event Subscription\r\n")
-registerEventSubscription("/turtle1/cmd_vel", typeTwist, ros_event_callback)
+registerEventSubscription("/JoystickController/cmd_vel", typeTwist, ros_event_callback)
 
 print("Registgering Event Subscription\r\n")
-registerEventSubscription("/turtle1/attachment", typeAttach, ros_attachment_callback)
+registerEventSubscription("/JoystickController/attachment", typeAttach, ros_attachment_callback)
 
 print("Run ROS Stack\r\n")
 run_ROS_Stack()  
